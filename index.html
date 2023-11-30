@@ -9,6 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <title>Document</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
     <section id="home">
@@ -16,20 +17,20 @@
         <div class="navbar" id="myNavbar">
           <div class="nav-menu">
             <a class="vv" href="#" class="active"><p onclick="scrollToSection('home')" class="un active">Home</p></a>
-            <a class="vv" href="#"><p onclick="scrollToSection('about')" class="un">About Me</p></a>
+            <a class="vv" href="#"><p onclick="scrollToSection('about')" class="un">About</p></a>
             <a class="vv" href="#"><p onclick="scrollToSection('services')" class="un">Services</p></a>
             <a class="vv" href="#"><p onclick="scrollToSection('Portfolio')" class="un">Portfolio</p></a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icon-4" onclick="myFunction()">
               &#9776;
-           </a>
-          </div>
-          <div class="icons">
-            <i class="fas fa-search"></i>
-            <i class="far fa-bell"></i>
-            <i class="far fa-user"></i>
-            <i class="far fa-arrow-alt-circle-down"></i>
+            </a>
           </div>
         </div>
+        <!-- <div class="icons">
+          <i class="fas fa-search"></i>
+          <i class="far fa-bell"></i>
+          <i class="far fa-user"></i>
+          <i class="far fa-arrow-alt-circle-down"></i>
+        </div> -->
         <div class="for-pic">
           <div class="content-div">
             <h4 class="Hey">Hey~ There</h4>
@@ -41,12 +42,12 @@
               Mauris eu interdum dolor, ut congue tellus.
             </p>
             <div class="buttons">
-              <button class="b-1">Hire Me</button>
-              <button class="b-2">View Portfolio</button>
+              <a href="contact.html"><button class="b-1">Hire Me</button></a>
+              <button onclick="scrollToSection('Portfolio')" class="b-2">View Portfolio</button>
             </div>
             <div class="find-me">
               <div>
-                <p class="find-me-p">Find Me</p>             
+                <p class="find-me-p">Find Me</p>
               </div>
               <div class="find-me-ic">
                 <i class="fab fa-facebook-f ic-ed"></i>
@@ -62,25 +63,40 @@
       </div>
     </section>
     <section id="about">
-       <div class="about-p-div">
+      <div class="about-p-div">
         <div class="free-q">
           <div class="quote">
             <h1 class="q-h">Free Quote</h1>
-            <p class="The-q">The success of every websites now depends on search engine optimisation and digital marketing strategy. <br> If you are on first page of all major search engines then you are <br> ahead among your competitors in terms of online sales.”</p>
+            <p class="The-q">
+              The success of every websites now depends on search engine
+              optimisation and digital marketing strategy. <br />
+              If you are on first page of all major search engines then you are
+              <br />
+              ahead among your competitors in terms of online sales.”
+            </p>
           </div>
           <div class="quote-button">
-             <button class="q-bu">Free Quote</button>
-          </div>           
-       </div>
-       <div class="About-data">
-        <div class="about-img">
-          <img src="img/about.PNG" alt="">
+            <button class="q-bu">Free Quote</button>
+          </div>
         </div>
-        <div class="about-th">
-           <h6 class="abt-me">About Me</h6>
-           <h1 class="time-exp">2+ Years ok experince In <br> Graphic Design</h1>
-           <p class="abt-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non metus cursus, dapibus lacus nec, lobortis quam. Phasellus hendrerit, dui nec congue interdum, <span class="clr-c">purus</span> purus nibh tempus elit, pretium maximus velit odio dignissim dui. Proin turpis dui, tempor a ligula
-            vel, laoreet accumsan ex.</p>
+        <div class="About-data">
+          <div class="about-img">
+            <img class="responsive-s" src="img/about.PNG" alt="" />
+          </div>
+          <div class="about-th">
+            <h6 class="abt-me">About Me</h6>
+            <h1 class="time-exp">
+              2+ Years ok experince In <br />
+              Graphic Design
+            </h1>
+            <p class="abt-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non
+              metus cursus, dapibus lacus nec, lobortis quam. Phasellus
+              hendrerit, dui nec congue interdum,
+              <span class="clr-c">purus</span> purus nibh tempus elit, pretium
+              maximus velit odio dignissim dui. Proin turpis dui, tempor a
+              ligula vel, laoreet accumsan ex.
+            </p>
             <div class="info-abt">
               <div>
                 <p><strong>Name:</strong>Micheal</p>
@@ -91,152 +107,316 @@
                 <p><strong>Location:</strong>123 address</p>
               </div>
             </div>
+          </div>
         </div>
-       </div>
-       <div class="Skill-set">
-        <div class="Skill-set-data">
-           <h6 class="s-h">SkillSet</h6>
-           <h1 class="s-t">Thousand of Hours Spending In Professional <br> Graphic Program</h1>
-           <p class="s-p">lacus nec, lobortis quam. Phasellus hendrerit, dui nec congue interdum, purus nibh tempus elit,<span class="clr-c">pretium maximus </span>  velit odio dignissim dui. Proin turpis dui, tempor a ligula vel, laoreet
-            accumsan ex</p>
-        </div>
-        <div class="percentage-1">
-          <div class="f-2">
-            <div class="p-1">
-              <div class="lang">
-                <img class="logo-h" src="img/html5-logo-31813.png" alt="">
-                <p class="g-c">HTML</p>
+        <div class="Skill-set">
+          <div class="Skill-set-data">
+            <h6 class="s-h">SkillSet</h6>
+            <h1 class="s-t">
+              Thousand of Hours Spending In Professional <br />
+              Graphic Program
+            </h1>
+            <p class="s-p">
+              lacus nec, lobortis quam. Phasellus hendrerit, dui nec congue
+              interdum, purus nibh tempus elit,<span class="clr-c"
+                >pretium maximus
+              </span>
+              velit odio dignissim dui. Proin turpis dui, tempor a ligula vel,
+              laoreet accumsan ex
+            </p>
+          </div>
+          <div class="percentage-1">
+            <div class="f-2">
+              <div class="p-1">
+                <div class="lang">
+                  <img class="logo-h" src="img/html5-logo-31813.png" alt="" />
+                  <p class="g-c">HTML</p>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar" id="progress-bar-1"></div>
+                  <div class="percentage" id="percentage-1">0%</div>
+                </div>
               </div>
-             <div class="progress-container">
-              <div class="progress-bar" id="progress-bar-1"></div>
-              <div class="percentage" id="percentage-1">0%</div>
-            </div>
-            </div>
-            <div class="p-1">
-              <div class="lang">
-                <img class="logo-h" src="img/html5-logo-31821 (1).png" alt="">
-                <p class="g-c">CSS</p>
+              <div class="p-1">
+                <div class="lang">
+                  <img
+                    class="logo-h"
+                    src="img/html5-logo-31821 (1).png"
+                    alt=""
+                  />
+                  <p class="g-c">CSS</p>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar" id="progress-bar-2"></div>
+                  <div class="percentage" id="percentage-2">0%</div>
+                </div>
               </div>
-             <div class="progress-container">
-              <div class="progress-bar" id="progress-bar-2"></div>
-              <div class="percentage" id="percentage-2">0%</div>
             </div>
+            <div class="s-2">
+              <div class="p-1">
+                <div class="lang">
+                  <img class="logo-h" src="img/JavaScript-logo.png" alt="" />
+                  <p class="g-c">JavaScript</p>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar" id="progress-bar-3"></div>
+                  <div class="percentage" id="percentage-3">0%</div>
+                </div>
+              </div>
+              <div class="p-1">
+                <div class="lang">
+                  <img
+                    class="logo-h"
+                    src="img/angular-icon-logo-vector.svg"
+                    alt=""
+                  />
+                  <p class="g-c">Anuglar</p>
+                </div>
+                <div class="progress-container">
+                  <div class="progress-bar" id="progress-bar-4"></div>
+                  <div class="percentage" id="percentage-4">0%</div>
+                </div>
+              </div>
             </div>
           </div>
-           <div class="s-2">
-             <div class="p-1">
-              <div class="lang">
-                <img class="logo-h" src="img/JavaScript-logo.png" alt="">
-                <p class="g-c">JavaScript</p>
-              </div>
-              <div class="progress-container">
-                <div class="progress-bar" id="progress-bar-3"></div>
-                <div class="percentage" id="percentage-3">0%</div>
-              </div>
-             </div>
-             <div class="p-1">
-              <div class="lang">
-                <img class="logo-h" src="img/angular-icon-logo-vector.svg" alt="">
-                <p class="g-c">Anuglar</p>
-              </div>
-              <div class="progress-container">
-                <div class="progress-bar" id="progress-bar-4"></div>
-                <div class="percentage" id="percentage-4">0%</div>
-              </div>
-             </div>
-           </div>
         </div>
-       </div>
-       </div>
+      </div>
     </section>
     <section id="services">
-     <div class="service-p">
-       <div>
-        <h6 class="abt-me service-n">Services</h6>
-        <h1 class="service-h">Solution Tailored To Your Business And Much <br> More</h1>
-        <p class="service-d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod, arcu vel rhoncus elementum, urna ante mollis felis, eu porta neque magna tincidunt augue. Integer eu tortor vel mi auctor convallis.</p>
-       </div>
-       <div class="ser-p">
-        <div class="ser-1">
-          <div class="same">
-            <div class="same-logo">
-              <i  class="fab fa-pied-piper fa-spin same-i"></i>
+      <div class="service-p">
+        <div>
+          <h6 class="abt-me service-n">Services</h6>
+          <h1 class="service-h">
+            Solution Tailored To Your Business And Much <br />
+            More
+          </h1>
+          <p class="service-d">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            euismod, arcu vel rhoncus elementum, urna ante mollis felis, eu
+            porta neque magna tincidunt augue. Integer eu tortor vel mi
+            auctor convallis.
+          </p>
+        </div>
+        <div class="ser-p">
+          <div class="ser-1">
+            <div class="same">
+              <div class="same-logo">
+                <i class="fab fa-pied-piper fa-spin same-i"></i>
+              </div>
+              <div class="same-data">
+                <h6 class="h6-1">Logo Design</h6>
+                <p class="same-p">
+                  Nam porttitor convallis purus. Ut consectetur lectus sapien,
+                  ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu
+                  venenatis lectus mollis eu. Donec vitae nis vel urna
+                  imperdiet commodo
+                </p>
+              </div>
             </div>
-            <div class="same-data">
-              <h6 class="h6-1">Logo Design</h6>
-              <p class="same-p">Nam porttitor convallis purus. Ut consectetur lectus sapien, ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu venenatis lectus mollis eu. Donec vitae nis vel urna imperdiet commodo</p>
+            <div class="same">
+              <div class="same-logo">
+                <i class="fas fa-layer-group fa-spin same-i"></i>
+              </div>
+              <div class="same-data">
+                <h6 class="h6-1">Logo Design</h6>
+                <p class="same-p">
+                  Nam porttitor convallis purus. Ut consectetur lectus sapien,
+                  ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu
+                  venenatis lectus mollis eu. Donec vitae nis vel urna
+                  imperdiet commodo
+                </p>
+              </div>
+            </div>
+            <div class="same">
+              <div class="same-logo">
+                <i class="far fa-eye fa-spin same-i"></i>
+              </div>
+              <div class="same-data">
+                <h6 class="h6-1">Visual Identifition</h6>
+                <p class="same-p">
+                  Nam porttitor convallis purus. Ut consectetur lectus sapien,
+                  ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu
+                  venenatis lectus mollis eu. Donec vitae nis vel urna
+                  imperdiet commodo
+                </p>
+              </div>
             </div>
           </div>
-          <div class="same">
-            <div class="same-logo">
-              <i class="fas fa-layer-group fa-spin same-i"></i>
+          <div class="ser-2">
+            <div class="same">
+              <div class="same-logo">
+                <i class="fas fa-sort-amount-up fa-spin same-i"></i>
+              </div>
+              <div class="same-data">
+                <h6 class="h6-1">Graphic Projects</h6>
+                <p class="same-p">
+                  Nam porttitor convallis purus. Ut consectetur lectus sapien,
+                  ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu
+                  venenatis lectus mollis eu. Donec vitae nis vel urna
+                  imperdiet commodo
+                </p>
+              </div>
             </div>
-            <div class="same-data">
-              <h6 class="h6-1">Logo Design</h6>
-              <p class="same-p">Nam porttitor convallis purus. Ut consectetur lectus sapien, ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu venenatis lectus mollis eu. Donec vitae nis vel urna imperdiet commodo</p>
+            <div class="same">
+              <div class="same-logo">
+                <i class="fas fa-share-alt fa-spin same-i"></i>
+              </div>
+              <div class="same-data">
+                <h6 class="h6-1">Graphic For Media</h6>
+                <p class="same-p">
+                  Nam porttitor convallis purus. Ut consectetur lectus sapien,
+                  ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu
+                  venenatis lectus mollis eu. Donec vitae nis vel urna
+                  imperdiet commodo
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="same">
-            <div class="same-logo">
-              <i   class="far fa-eye fa-spin same-i"></i>
-            </div>
-            <div class="same-data">
-              <h6 class="h6-1">Visual Identifition</h6>
-              <p class="same-p">Nam porttitor convallis purus. Ut consectetur lectus sapien, ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu venenatis lectus mollis eu. Donec vitae nis vel urna imperdiet commodo</p>
+            <div class="same">
+              <div class="same-logo">
+                <i class="fas fa-shopping-bag fa-spin same-i"></i>
+              </div>
+              <div class="same-data">
+                <h6 class="h6-1">Product Packing</h6>
+                <p class="same-p">
+                  Nam porttitor convallis purus. Ut consectetur lectus sapien,
+                  ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu
+                  venenatis lectus mollis eu. Donec vitae nis vel urna
+                  imperdiet commodo
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="ser-2">
-          <div class="same">
-            <div class="same-logo">
-              <i    class="fas fa-sort-amount-up fa-spin same-i"></i>
-            </div>
-            <div class="same-data">
-              <h6 class="h6-1">Graphic Projects</h6>
-              <p class="same-p">Nam porttitor convallis purus. Ut consectetur lectus sapien, ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu venenatis lectus mollis eu. Donec vitae nis vel urna imperdiet commodo</p>
-            </div>
-          </div>
-          <div class="same">
-            <div class="same-logo">
-              <i    class="fas fa-share-alt fa-spin same-i"></i>
-            </div>
-            <div class="same-data">
-              <h6 class="h6-1">Graphic For Media</h6>
-              <p class="same-p">Nam porttitor convallis purus. Ut consectetur lectus sapien, ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu venenatis lectus mollis eu. Donec vitae nis vel urna imperdiet commodo</p>
-            </div>
-          </div>
-          <div class="same">
-            <div class="same-logo">
-              <i  class="fas fa-shopping-bag fa-spin same-i"></i>
-            </div>
-            <div class="same-data">
-              <h6 class="h6-1">Product Packing</h6>
-              <p class="same-p">Nam porttitor convallis purus. Ut consectetur lectus sapien, ac rutrum velit suscipit at. Nunc lacinia volutpat purus, eu venenatis lectus mollis eu. Donec vitae nis vel urna imperdiet commodo</p>
-            </div>
-          </div>
-        </div>
-       </div>
-     </div>
+      </div>
     </section>
     <section id="Portfolio">
       <div class="free-q contact-1">
         <div class="quote">
           <h1 class="q-h">Contact Me</h1>
-          <p class="The-q">The success of every websites now depends on search engine optimisation and digital marketing strategy. <br> If you are on first page of all major search engines then you are <br> ahead among your competitors in terms of online sales.”</p>
+          <p class="The-q">
+            The success of every websites now depends on search engine
+            optimisation and digital marketing strategy. <br />
+            If you are on first page of all major search engines then you are
+            <br />
+            ahead among your competitors in terms of online sales.”
+          </p>
         </div>
         <div class="quote-button">
-           <button class="q-bu">Contact Me</button>
-        </div>           
-     </div>
+          <a href="contact.html"><button class="q-bu">Contact Me</button></a>
+        </div>
+      </div>
+     <div id="filter-buttons">
+      <button class="filter-button bor-r" data-filter="all">All</button>
+      <button class="filter-button bor-r2" data-filter="web">Web Design</button>
+      <button class="filter-button bor-r3 " data-filter="game">Game</button>
+      <button class="filter-button bor-r2 " data-filter="graphic">
+        Graphic Design
+      </button>
+      <button class="filter-button bor-r1 bor-r3" data-filter="illustration">
+        Clown
+      </button>
+    </div>
+
+    <div id="gallery" class="gallery ">
+      <!-- Your portfolio items go here -->
+      <div class="item web card">
+        <!-- Example item -->
+        <img class="card-img" src="img/n1ad061889e3f6c3b0ecf3.jpg" alt="Web Design Project" />
+        <div class="card-body">
+          <h1 class="card-tile">nyc</h1>
+          <p class="card-info">efcd crscso ckasox scdosdnio dnioiocdosd nioscnosd niono jncdbdc bicocdocd noosdicdc</p>
+          <button class="card-bu">Hire Me</button>
+        </div>
+      </div>
+      <div class="item illustration card">
+        <!-- Example item -->
+        <img class="card-img" src="img/n2056d8f38d8daf93697379d98f556c.jpg" alt="Web Design Project" />
+        <div class="card-body">
+          <h1 class="card-tile">nyc</h1>
+          <p class="card-info">efcd crscso ckasox scdosdnio dnioiocdosd nioscnosd niono jncdbdc bicocdocd noosdicdc</p>
+          <button class="card-bu">Hire Me</button>
+        </div>
+      </div>
+      <div class="item graphic card">
+        <!-- Example item -->
+        <img class="card-img" src="img/n335f18f951a5e87ffd66a2b6550aa8.jpg" alt="Web Design Project" />
+        <div class="card-body">
+          <h1 class="card-tile">nyc</h1>
+          <p class="card-info">efcd crscso ckasox scdosdnio dnioiocdosd nioscnosd niono jncdbdc bicocdocd noosdicdc</p>
+          <button class="card-bu">Hire Me</button>
+        </div>
+      </div>
+      <div class="item illustration card">
+        <!-- Example item -->
+        <img class="card-img" src="img/n47031d05c79756.jpg" alt="Web Design Project" />
+        <div class="card-body">
+          <h1 class="card-tile">nyc</h1>
+          <p class="card-info">efcd crscso ckasox scdosdnio dnioiocdosd nioscnosd niono jncdbdc bicocdocd noosdicdc</p>
+          <button class="card-bu">Hire Me</button>
+        </div>
+      </div>
+      <div class="item game card">
+        <!-- Example item -->
+        <img class="card-img" src="img/n5c7e5b8016c0128ece2d55da03b3b8.jpg" alt="Web Design Project" />
+        <div class="card-body">
+          <h1 class="card-tile">nyc</h1>
+          <p class="card-info">efcd crscso ckasox scdosdnio dnioiocdosd nioscnosd niono jncdbdc bicocdocd noosdicdc</p>
+          <button class="card-bu">Hire Me</button>
+        </div>
+      </div>
+      <div class="item graphic card">
+        <!-- Example item -->
+        <img class="card-img" src="img/n61c9d8a152e4f53bff4bf389321e3.jpg" alt="Web Design Project" />
+        <div class="card-body">
+          <h1 class="card-tile">nyc</h1>
+          <p class="card-info">efcd crscso ckasox scdosdnio dnioiocdosd nioscnosd niono jncdbdc bicocdocd noosdicdc</p>
+          <button class="card-bu">Hire Me</button>
+        </div>
+      </div>
+      <div class="item game card">
+        <!-- Example item -->
+        <img class="card-img" src="img/n7816163c50329983d34c7.jpg" alt="Web Design Project" />
+        <div class="card-body">
+          <h1 class="card-tile">nyc</h1>
+          <p class="card-info">efcd crscso ckasox scdosdnio dnioiocdosd nioscnosd niono jncdbdc bicocdocd noosdicdc</p>
+          <button class="card-bu">Hire Me</button>
+        </div>
+      </div>
+      <div class="item illustration card">
+        <!-- Example item -->
+        <img class="card-img" src="img/n8cafb042b5c30b128e307de5d192f364.jpg" alt="Web Design Project" />
+        <div class="card-body">
+          <h1 class="card-tile">nyc</h1>
+          <p class="card-info">efcd crscso ckasox scdosdnio dnioiocdosd nioscnosd niono jncdbdc bicocdocd noosdicdc</p>
+          <button class="card-bu">Hire Me</button>
+        </div>
+      </div>
+      <div class="item graphic card">
+        <!-- Example item -->
+        <img class="card-img" src="img/n924dee28502c92f48bd5dc9687c.jpg" alt="Web Design Project" />
+        <div class="card-body">
+          <h1 class="card-tile">nyc</h1>
+          <p class="card-info">efcd crscso ckasox scdosdnio dnioiocdosd nioscnosd niono jncdbdc bicocdocd noosdicdc</p>
+          <button class="card-bu">Hire Me</button>
+        </div>
+      </div>
+    </div>
+
+
     </section>
     <footer>
       <div class="footer-p">
         <div class="footer-1">
           <div class="footer-1-d">
-             <h6>Micheal karlee</h6>
-             <h4>Graphic Designer</h4>
-             <p class="g-c">Nam porttitor convallis purus. Ut consectetur <br> lectus sapien, ac <span class="b-c">rutrum velit</span>  suscipit at. <br> Nunc lacinia volutpat purus, <br> eu venenatis lectus
-              mollis eu.</p>
+            <h6>Micheal karlee</h6>
+            <h4>Graphic Designer</h4>
+            <p class="g-c">
+              Nam porttitor convallis purus. Ut consectetur <br />
+              lectus sapien, ac <span class="b-c">rutrum velit</span> suscipit
+              at. <br />
+              Nunc lacinia volutpat purus, <br />
+              eu venenatis lectus mollis eu.
+            </p>
           </div>
           <div class="footer-1-i">
             <div class="f-i">
@@ -250,16 +430,18 @@
           <div class="footer-2-d"></div>
           <div><h3>Website</h3></div>
           <div class="saaaame">
-            <p class="g-c"><span class="b-c">>  </span> Home</p>
-            <p class="g-c"><span class="b-c">>  </span> About Me</p>
-            <p class="g-c"><span class="b-c">>  </span> Services</p>
-            <p class="g-c"><span class="b-c">>  </span> Portfolio</p>
+            <p class="g-c"><span class="b-c">> </span> Home</p>
+            <p class="g-c"><span class="b-c">> </span> About Me</p>
+            <p class="g-c"><span class="b-c">> </span> Services</p>
+            <p class="g-c"><span class="b-c">> </span> Portfolio</p>
           </div>
         </div>
         <div class="footer-3">
           <div><h3>Contact</h3></div>
           <div class="saaaame">
-            <p class="g-c"><span class="b-c">Email:</span> smicheal@gmail.com</p>
+            <p class="g-c">
+              <span class="b-c">Email:</span> smicheal@gmail.com
+            </p>
             <p class="g-c"><span class="b-c">Phone No:</span> 23424242</p>
             <p class="g-c"><span class="b-c">Adress:</span> 123address</p>
           </div>
@@ -270,9 +452,14 @@
       <p>Micheal karlee. All Right Resevred</p>
     </div>
 
-    <i id="back-to-top" onclick="scrollToSection('home')" class="fas fa-long-arrow-alt-up"></i>
-    <!-- <button id="back-to-top" onclick="scrollToSection('home')">Back to Top</button> -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="script.js"></script>
+    <i
+      id="back-to-top"
+      onclick="scrollToSection('home')"
+      class="fas fa-long-arrow-alt-up"
+    ></i>
+
+    
+    <script src="script.js"></script>   
+    
   </body>
 </html>
