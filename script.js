@@ -108,3 +108,12 @@ sr.reveal('.content-div' ,{delay:200, origin:'top'});
 sr.reveal('.m-p' ,{delay:450, origin:'top'});
 sr.reveal('.icons' ,{delay:200, origin:'left'});
 sr.reveal('.nav-menu' ,{delay:200, origin:'left'});
+
+
+const togglebtn =document.querySelector(".toggle-btn")
+const togglebtnicon = document.querySelector(".toggle-btn i")
+const dropdown = document.querySelector(".dropdown-menu")
+ 
+togglebtn.onclick = function () {
+   dropdown.classList.toggle('open')
+}
