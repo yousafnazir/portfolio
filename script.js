@@ -107,7 +107,7 @@ const sr = ScrollReveal ({
 sr.reveal('.content-div' ,{delay:200, origin:'top'});
 sr.reveal('.m-p' ,{delay:450, origin:'top'});
 sr.reveal('.icons' ,{delay:200, origin:'left'});
-sr.reveal('.nav-menu' ,{delay:200, origin:'left'});
+sr.reveal('.navbar-4' ,{delay:200, origin:'left'});
 
 
 const togglebtn =document.querySelector(".toggle-btn")
