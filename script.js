@@ -116,4 +116,9 @@ const dropdown = document.querySelector(".dropdown-menu")
  
 togglebtn.onclick = function () {
    dropdown.classList.toggle('open')
+   const isOpen = dropdown.classList.contains('open')
+
+   togglebtnicon.classList = isOpen
+   ? 'far fa-window-close'
+   : 'fas fa-bars'
 }

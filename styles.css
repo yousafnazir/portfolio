@@ -1062,3 +1062,14 @@ button {
     justify-content: flex-end;
   }
  }
+ @media (max-width: 480px) {
+   .dropdown-menu {
+    left: 2rem;
+    width: unset;
+   }
+ }
+ @media (max-width: 573px) {
+  .for-pic {
+    margin-top: 8rem;
+  }
+ }
