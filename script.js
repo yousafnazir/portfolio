@@ -121,4 +121,4 @@ togglebtn.onclick = function () {
    togglebtnicon.classList = isOpen
    ? 'far fa-window-close'
    : 'fas fa-bars'
-}
+};
