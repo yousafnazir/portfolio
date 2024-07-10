@@ -41,9 +41,11 @@ function animateProgressBar(barId, percentageId, targetPercentage, duration) {
 
 
 animateProgressBar('progress-bar-1', 'percentage-1', 100, 2000); 
-animateProgressBar('progress-bar-2', 'percentage-2', 90, 2000);  
-animateProgressBar('progress-bar-3', 'percentage-3', 80, 2000); 
-animateProgressBar('progress-bar-4', 'percentage-4', 70, 2000);  
+animateProgressBar('progress-bar-2', 'percentage-2', 100, 2000);  
+animateProgressBar('progress-bar-3', 'percentage-3', 90, 2000); 
+animateProgressBar('progress-bar-4', 'percentage-4', 80, 2000);
+animateProgressBar('progress-bar-5', 'percentage-5', 100, 2000);
+animateProgressBar('progress-bar-6', 'percentage-6', 90, 2000);
 
 
 
