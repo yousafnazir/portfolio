@@ -1,7 +1,11 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+}
+body p{
+  font-family: "Poppins", sans-serif;
 }
 * {
   margin: 0;
@@ -77,15 +81,17 @@ header {
 }
 .pt-heading h6 {
   color: #8000ff;
-    margin-top: 2vw;
-    margin-left: 8vw;
-    text-transform: uppercase;
-    font-size: 24px;
+  margin-top: 2vw;
+  margin-left: 8vw;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
 }
 .pt-heading h1 {
   margin-top: 1rem;
-    font-size: 34px; 
-        margin-left: 8vw;
+  font-size: 34px; 
+  margin-left: 8vw;
+  font-family: "Lora", serif;
 }
 .pt-heading p {
    color: #848484;
@@ -119,9 +125,11 @@ header {
 }
 .Hey {
   color: #8000ff;
+  font-family: "Poppins", sans-serif;
 }
 .name {
   font-size: 34px;
+  font-family: "Lora", serif;
 }
 .navbar .icon-4 {
   display: none;
@@ -162,12 +170,29 @@ header {
   padding: 16px 36px 16px 36px;
   border-radius: 25px;
 }
+.b-1:hover{
+  background-color: #ffff;
+  color: #8000ff;
+  border: 2px solid #8000ff;
+  border-radius: 25px;
+}
 .b-2 {
   background: #fff;
   border: 2px solid #8000ff;
   padding: 12px 42px 13px 42px;
   color: #8000ff;
   border-radius: 25px;
+}
+.b-2:hover{
+  background-color: #5c1e9b;
+  color: #ffff;
+
+}
+.q-bu:hover{
+  background-color: #e6f3f9;
+  border: 2px solid #8000ff;
+  border-radius: 25px;
+  color: #8000ff;
 }
 .buttons {
   margin-top: 2.5vw;
@@ -179,7 +204,7 @@ header {
 }
 .for-pic {
   display: flex;
-  gap: 10vw;
+  gap: 18vw;
 }
 #back-to-top {
   display: none;
@@ -224,6 +249,9 @@ header {
 #about {
   margin-top: 3vw;
 }
+.about-th{
+  margin-top: 4vw;
+}
 .q-bu {
   border: none;
   outline: none;
@@ -237,6 +265,7 @@ header {
 .q-h {
   padding-top: 2vw;
   font-size: 35px;
+  font-family: "Lora", serif;
 }
 .about-img img {
   height: 40vw;
@@ -256,6 +285,7 @@ header {
 .time-exp {
   font-size: 35px;
   line-height: 51px;
+  font-family: "Lora", serif;
 }
 .abt-p {
   margin-top: 3vw;
@@ -281,6 +311,7 @@ header {
 }
 .s-t {
   font-size: 44px;
+  font-family: "Lora", serif;
 }
 .s-p {
   margin-right: 10vw;
@@ -335,6 +366,10 @@ header {
 }
 .g-c {
   color: #848484;
+  cursor: pointer;
+}
+.g-c:hover{
+  color:#474747 ;
 }
 .service-p {
   margin-left: 8vw;
@@ -345,6 +380,7 @@ header {
 }
 .service-h {
   font-size: 45px;
+  font-family: "Lora", serif;
 }
 .service-d {
   margin-top: 2vw;
@@ -370,6 +406,7 @@ header {
 }
 .h6-1 {
   font-size: 24px;
+  font-family: "Lora", serif;
 }
 .same-p {
   margin-top: 1vw;
@@ -403,6 +440,16 @@ footer {
 .footer-1-d h6 {
   font-size: 23px;
   margin-bottom: 0.5vw;
+  font-family: "Lora", serif;
+}
+.footer-1-d h4{
+  font-family: "Lora", serif;
+}
+.title-footer-nav h3 {
+  font-family: "Lora", serif;
+}
+.footer-3 h3 {
+  font-family: "Lora", serif;
 }
 .footer-1-d p {
   margin-top: 1vw;
